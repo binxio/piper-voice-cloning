@@ -1,0 +1,1 @@
+python3.9 -m piper_train --dataset-dir /path/to/trainingoutput/ --accelerator 'gpu' --devices 1 --batch-size 32 --validation-split 0.0 --num-test-examples 0 --max_epochs 10000 --resume_from_checkpoint /path/to/trainingoutput/epoch\=8715-step\=916746.ckpt --checkpoint-epochs 1 --precision 32 --quality high
